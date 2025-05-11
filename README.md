@@ -1,4 +1,4 @@
-### Various examples of Excel code
+# Various examples of Excel code
 
 ## Missing Zip Codes
 
@@ -27,4 +27,6 @@ in check
 Then we apply this function to our source data as a new column and we get the following.
 ![alt text](https://github.com/Impcodeisok/excel/blob/main/FZFinisheddata.jpg "Example output")
 
-We see it returns nothing for the last value, which was bad data.  We're unlikely to recieve a false positive result with the method given because we've got the majority of the address.  One probable issue is the above method probably will not scale to the full 4000 address list without adding a wait state. See (https://medium.com/@AndreAlessi/building-delays-into-power-bi-api-queries-function-invokeafter-and-google-maps-api-68b475c73a2c) for what that would involve.
+We see it returns nothing for the last value, which was bad data.  We're unlikely to recieve a false positive result with the method given because we've got the majority of the address.  One probable issue is the above method probably will not scale to the full 4000 address list without adding a wait state. See https://medium.com/@AndreAlessi/building-delays-into-power-bi-api-queries-function-invokeafter-and-google-maps-api-68b475c73a2c for what that would involve.
+
+![alt text](https://github.com/Impcodeisok/excel/blob/main/Find%20zip.xlsx "Find Zip example")
