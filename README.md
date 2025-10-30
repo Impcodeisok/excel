@@ -37,11 +37,13 @@ We see it returns nothing for the last value, which was bad data.  We're unlikel
 Data from https://foresightbi.com.ng/microsoft-power-bi/dirty-data-samples-to-practice-on/ Example 4.
 Data needed to be reformatted from the existing messy format to a more compact and functional form as seen in the Image below.
 
-![alt text](https://github.com/Impcodeisok/excel/blob/main/goal.jpg "Data to reformat"
-)
+![alt text](https://github.com/Impcodeisok/excel/blob/main/goal.jpg "Data to reformat")
+
 Although Power Query is the better option for fun I tried resolving our format with formulas first.  In a small dataset like this it can sometimes be the right answer if you need something quick as a one off.
 
 First, I created a copy of the data on a new sheet named “Dirty copy” and modified it manually to show a ship mode value for every relevant column to make life simpler.
+
+![alt text](https://github.com/Impcodeisok/excel/blob/main/DC.jpg "Dirty Copy")
 
 From here I copy the order and date columns into a new sheet called “Formula method”
 
@@ -56,6 +58,8 @@ And
 
 The final step is return the value of the given order, for which we use 
 “=FILTER(XLOOKUP($C2&$D2,'Dirty copy'!$A:$A&'Dirty copy'!$B:$B,'Dirty copy'!$C:$N),XLOOKUP($C2&$D2,'Dirty copy'!$A:$A&'Dirty copy'!$B:$B,'Dirty copy'!$C:$N)<>0)”
+
+![alt text](https://github.com/Impcodeisok/excel/blob/main/Fm.jpg "Formula method")
 
 Once we’ve gotten our results I copy the raw data and paste as value into the sheet “Formula method final output” and format it as a table, apply sorting and would typically then copy the worksheet to a new workbook to forward to the stakeholder who needed it.
 
