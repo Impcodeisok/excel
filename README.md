@@ -32,7 +32,7 @@ We see it returns nothing for the last value, which was bad data.  We're unlikel
 [Example File](https://github.com/Impcodeisok/excel/blob/main/Find%20zip.xlsx "Find Zip example")
 
 
-Reformatting Data example:
+## Reformatting Data example:
 
 Data from https://foresightbi.com.ng/microsoft-power-bi/dirty-data-samples-to-practice-on/ Example 4.
 Data needed to be reformatted from the existing messy format to a more compact and functional form as seen in the Image below.
@@ -99,7 +99,7 @@ in
 
 File with all data and solutions:
 
-
+[Example File](https://github.com/Impcodeisok/excel/blob/main/4.-Badly-Structured-Sales-Data-4.xlsx "Badly structured sales data")
 
 
 
