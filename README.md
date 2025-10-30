@@ -63,6 +63,8 @@ The final step is return the value of the given order, for which we use
 
 Once we’ve gotten our results I copy the raw data and paste as value into the sheet “Formula method final output” and format it as a table, apply sorting and would typically then copy the worksheet to a new workbook to forward to the stakeholder who needed it.
 
+![alt text](https://github.com/Impcodeisok/excel/blob/main/fm1.jpg "Formula results")
+
 But the more correct method here is probably using Power Query to reformat the data.  It handles larger data sets more efficiently and gives you a repeatable process you can easily automate if a task is common enough to warrant it.
 
 For that method we select our data on “Dirty copy” and select data/data from table range.
